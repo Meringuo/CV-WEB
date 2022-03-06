@@ -1,0 +1,81 @@
+.flex-bet
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px 0 10px;
+}
+
+.container {
+	display:grid ;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+.formation
+{
+	grid-column: 2;
+}
+
+.parcours
+{
+	grid-column: 3;
+}
+
+.centres-int
+{
+	grid-column: 2/-1;
+}
+
+#contenu
+{
+	background-color: #FEF5E7;
+}
+
+#photoID
+{
+	width: 110px;
+	border-radius: 30px;
+	float: right;
+}
+
+body 
+{
+	font-family: "arial",serif;
+	margin: 0 100px 0 100px;
+}
+
+header
+{
+	background-color: #AED6F1;
+	padding: 20px;
+}
+
+h1
+{
+	border: 2px solid #FEF5E7;
+	border-radius: 25% 10%;
+	width: fit-content;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h2 
+{
+	text-align: center;
+	font-size: 1.4rem;
+	margin : 20px; 
+	clear: right;
+}
+
+h3
+{
+	font-size: 1,1rem;
+}
+
+aside
+{
+	border-right: medium inset skyblue;
+	grid-row: 1/span 2;
+	margin-left: 10px;
+}
