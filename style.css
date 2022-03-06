@@ -33,9 +33,10 @@
 
 #photoID
 {
-	width: 110px;
+	width: 200px;
 	border-radius: 30px;
 	float: right;
+
 }
 
 body 
@@ -64,8 +65,8 @@ h2
 {
 	text-align: center;
 	font-size: 1.4rem;
-	margin : 20px; 
 	clear: right;
+	padding-top: 30px;
 }
 
 h3
